@@ -22,6 +22,10 @@
       margin: 0 auto;
       font-family: poppins, sans-serif;
     }
+    /* setting  top-left area and top-right area side by side */
+    .top-part{
+        display: flex;
+    }
     .top-title {
       font-size: 3em;
       color: #ffffff;
@@ -32,10 +36,21 @@
       font-size: 1.25em;
       color: #ffffff;
     }
+    /* top-right side stylying start */
+    /* image styling */
+    #top-img{
+        width: 150%;
+        position: relative;
+        bottom:-135px;
+    }
   </style>
   <body>
     <!-- <img src="./image/website-1.png" alt="" srcset=""> -->
     <section class="top-part">
+        
+        
+    <div id="top-left">
+         
       <div class="top-title">
         <h1>The Greatest</h1>
         <h1>show on the</h1>
@@ -45,6 +60,10 @@
         <p>Contrary to the popular beflief,Lorem ipsum is not simply</p>
         <p>random text it has roots in a peice of</p>
       </div>
+    </div>
+    <div id="top-right">
+     <img src="./images/header-img/Banner Image.png" alt="" id="top-img">
+    </div>
     </section>
   </body>
 </html>
