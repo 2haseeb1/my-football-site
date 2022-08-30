@@ -18,52 +18,74 @@
       width: 1319px;
       height: 646px;
       background: #161616;
-      border-radius: 5px;
+      border-radius: 15px;
       margin: 0 auto;
       font-family: poppins, sans-serif;
     }
     /* setting  top-left area and top-right area side by side */
-    .top-part{
-        display: flex;
+    .top-part {
+      display: flex;
+    }
+    /* styling top-right section */
+
+    /* positioning top-left area */
+    #top-left {
+      margin-top: 120px;
+      margin-left: 50px;
     }
     .top-title {
       font-size: 3em;
       color: #ffffff;
-      line-height: 1;
+      line-height: 0.5;
       font-weight: 700;
     }
     .top-para {
       font-size: 1.25em;
       color: #ffffff;
+      margin-top: -18px;
     }
+
+    /* button are styling */
+    #btn {
+      width: 188px;
+      height: 56px;
+      color: #fff;
+      background: crimson;
+      outline: none;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+    }
+
     /* top-right side stylying start */
     /* image styling */
-    #top-img{
-        width: 150%;
-        position: relative;
-        bottom:-135px;
+    #top-img {
+      width: 180%;
+      position: relative;
+      bottom: -36px;
+      right: -76px;
     }
   </style>
   <body>
     <!-- <img src="./image/website-1.png" alt="" srcset=""> -->
     <section class="top-part">
-        
-        
-    <div id="top-left">
-         
-      <div class="top-title">
-        <h1>The Greatest</h1>
-        <h1>show on the</h1>
-        <h1>earth</h1>
+      <div id="top-left">
+        <div class="top-title">
+          <h1>The Greatest</h1>
+          <h1>show on the</h1>
+          <h1>earth</h1>
+        </div>
+        <div class="top-para">
+          <p>Contrary to the popular beflief,Lorem ipsum is not simply</p>
+          <p>random text it has roots in a peice of</p>
+        </div>
+        <div id="btn">
+          <button id="btn">Watch Now</button>
+        </div>
       </div>
-      <div class="top-para">
-        <p>Contrary to the popular beflief,Lorem ipsum is not simply</p>
-        <p>random text it has roots in a peice of</p>
+      <div id="top-right">
+        <img src="./images/header-img/Banner Image.png" alt="" id="top-img" />
       </div>
-    </div>
-    <div id="top-right">
-     <img src="./images/header-img/Banner Image.png" alt="" id="top-img">
-    </div>
     </section>
   </body>
 </html>
